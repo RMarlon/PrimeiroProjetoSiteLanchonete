@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #8FBC8F;
+    background-image: url('/Images/fundo.jpg');
+    /*background-size: cover;*/
+    /* overflow: hidden */
+}
+
+/* CABEÇALHO DE MENU*/
+
+.header {
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+    background-color: #2E8B57;
+    color: chartreuse;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+}
+
+li {
+    float: left;
+    margin-left: 10px;
+}
+
+.logo {
+    float: left;
+}
+
+.mb :hover {
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: 2px solid chartreuse;
+    background-color: #8FBC8F
+}
+
+a, .mb {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+/* FIM CABEÇALHO DE MENU*/
+
+/* SEGUNDO CABEÇALHO E CORPO (LANCHONETE GULA LANCHES)*/
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.headContainer {
+    background-color: #7CFC00;
+    text-align: center;
+    color: #006400;
+    padding: 10px;
+}
+
+.title {
+    font-size: 26px;
+}
+
+.sectionContainer {
+    padding: 20px;
+    background-image: url('/Images/lanchonete03.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formContainer {
+    max-width: 230x;
+    padding: 190px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.subTitle {
+    margin-bottom: 15px;
+}
+
+/* FIM DO SEGUNDO CABEÇALHO E CORPO (LANCHONETE GULA LANCHES)*/
+
+/* INICÍO DO CARDÁPIO (AQUI IRÁ SER POSTO AS INFORMAÇÕES SOBRE OS LANCHES) */
+
+.outerContainer {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.newContainer {
+    background-color: #7CFC00;
+    text-align: center;
+    color: #006400;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.sectionMenu {
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #FFFFFFBB;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.sd {
+    background-color: #2E8B57;
+    border-radius: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.mn {
+    max-width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+/* FIM DO CARDÁPIO (AQUI IRÁ SER POSTO AS INFORMAÇÕES SOBRE OS LANCHES) */
+
+/*INICIO DA SEÇÃO DE CADASTRO */
+
+section {
+    padding: 20px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.sg {
+    font-weight: bold;
+}
+
+.formsContainer {
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+    border-radius: 10px;
+}
+
+.fm {
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    color: #7CFC00;
+    background-color: #2E8B57;
+    font-weight: bold;
+    box-shadow: #202121;
+    cursor: pointer;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('/Images/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
+footer {
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h4 {
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 54%;
+    max-width: 20%;
+    background-color: #2E8B57;
+}
