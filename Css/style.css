@@ -6,8 +6,9 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #8FBC8F;
-    background-image: url('/Images/fundo.jpg');
-    /*background-size: cover;*/
+    background: url('/Images/fundo.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     /* overflow: hidden */
 }
 
@@ -65,6 +66,7 @@ a, .mb {
 
 .headContainer {
     background-color: #7CFC00;
+    border-radius: 5px;
     text-align: center;
     color: #006400;
     padding: 10px;
@@ -76,10 +78,10 @@ a, .mb {
 
 .sectionContainer {
     padding: 20px;
-    background-image: url('/Images/lanchonete03.jpg');
-    background-repeat: no-repeat;
+    background: url('/Images/lanchonete03.jpg') no-repeat; 
+    border-radius: 5px;
     background-size: cover;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .formContainer {
@@ -183,8 +185,7 @@ select {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-    background-image: url('/Images/arrow.jpg');
-    background-repeat: no-repeat;
+    background: url('/Images/arrow.jpg') no-repeat;
     background-position-x: calc(100% - 10px);
     background-position-y: center;
 }
